@@ -9,8 +9,8 @@ from telegram.ext import (
 )
 import requests
 
-TELEGRAM_TOKEN = '8183155029:AAFy7iT_M4Zqi8_mKE_iO1oxhnRFwD5EALg'
-DEEPSEEK_API_KEY = 'sk-aa921469a94742eabc78d628d6a4b37e'
+TELEGRAM_TOKEN = ''
+DEEPSEEK_API_KEY = ''
 
 STYLE_PRESETS = {
     "official": "улучшай текст в официальном деловом стиле",
