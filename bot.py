@@ -1,3 +1,4 @@
+from dotenv import load_dotenv
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     ApplicationBuilder,
@@ -8,8 +9,11 @@ from telegram.ext import (
     filters,
 )
 import requests
+import os
 
-TELEGRAM_TOKEN = ''
+load_dotenv()
+
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 DEEPSEEK_API_KEY = ''
 
 STYLE_PRESETS = {
