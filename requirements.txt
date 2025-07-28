@@ -1,11 +1,2 @@
-python-telegram-bot==20.7
+python-telegram-bot==20.9
 requests
-ApplicationBuilder
-CommandHandler
-CallbackQueryHandler
-MessageHandler
-ContextTypes
-filters
-Update
-InlineKeyboardButton
-InlineKeyboardMarkup
